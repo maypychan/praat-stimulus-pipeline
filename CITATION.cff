@@ -1,0 +1,42 @@
+# This file tells people how to cite the pipeline. GitHub reads it and shows a
+# "Cite this repository" button on the repository page.
+# Format: Citation File Format 1.2.0 (https://citation-file-format.github.io/)
+cff-version: 1.2.0
+message: "If you use this script to prepare stimuli, please cite it as below."
+type: software
+title: "Stimulus recording pipeline: a Praat script for cutting word-list recordings into stimulus files"
+version: 1.0.0
+date-released: 2026-11-13
+license: MIT
+authors:
+  - family-names: Chan
+    given-names: May Pik Yu
+    orcid: "https://orcid.org/0000-0003-2365-4093"
+repository-code: "https://github.com/maypychan/praat-stimulus-pipeline"
+abstract: >-
+  A Praat script that turns one recording of a word list into one WAV file
+  per word. It segments the recording into words and pauses, checks the
+  word count against a CSV of the list, labels every word from the CSV,
+  and cuts each word with padding, fades and optional amplitude and
+  duration normalization. It writes the labelled TextGrid and a log of
+  every file it made. An optional tuning step scores segmentation settings
+  against a stretch of the recording corrected by hand.
+keywords:
+  - Praat
+  - phonetics
+  - speech stimuli
+  - stimulus preparation
+  - word list
+  - segmentation
+  - TextGrid
+  - psycholinguistics
+  - speech perception
+references:
+  - type: software
+    title: "Praat: doing phonetics by computer"
+    authors:
+      - family-names: Boersma
+        given-names: Paul
+      - family-names: Weenink
+        given-names: David
+    url: "https://www.praat.org"
