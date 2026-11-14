@@ -9,6 +9,9 @@ output:
     toc_float: true
     number_sections: true
     theme: flatly
+    # link the screenshots and page files instead of packing them into index.html
+    self_contained: false
+    lib_dir: libs
 ---
 
 ```{r setup, include = FALSE}
